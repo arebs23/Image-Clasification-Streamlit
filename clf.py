@@ -1,7 +1,7 @@
 from torchvision import models,transforms
 import torch
 from PIL import Image
-import pytorch_lightning as pl
+
 
 def predict(image_path):
     resnet = models.resnet101(pretrained = True)
